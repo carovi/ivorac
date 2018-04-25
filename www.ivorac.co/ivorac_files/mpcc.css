@@ -1,0 +1,1132 @@
+body {background-color:#d1d2d4;font-size: 12px;font-family: verdana, arial, helvetica, sans-serif;}
+li{padding-bottom:5px;padding-right:50px;}
+img{display:inline;}
+a{color:#14479e;}
+#pagecontainer {width:988px;margin-left:auto;margin-right:auto;background-color:#ffffff;}
+#pagecontainer {min-width:988px;width:auto;} /* This line makes site liquid */
+.pageMargin {width:10%;}
+body.pid1 #pagecontainer {min-width:972px;width:972px;}
+body.pid1 .pageMargin {width:auto;}
+#headerContainer {height:80px; position: relative; }
+#footerContainer {text-align:center;background-image:url(https://www.marathonpetroleum.com/images/footerbkgrnd.png);background-repeat:no-repeat;background-color:#d1d2d4;height:80px;padding:26px 0 0 278px;}
+#footerContainer p {font-size:12px;margin-bottom: 5px;color:#1b3664;}
+#footerContainer p a {text-decoration:none;color:#1b3664;}
+.fdiv {margin:0 5px;}
+#MPCLogo{float:left;margin-left:35px;margin-top:26px;}
+#MPCLogo img{border-style:none;}
+#searchGo {border-style:none;position:relative;top:7px;}
+.search-box {padding-left:10px;padding-top:3px;padding-right:10px;border-width:1px;border-style: solid;border-color:#e3e2e2; width:174px; height:16px; background-color:transparent;margin-bottom:15px;}
+/*#searchRow {float:right;padding:19px 22px 4px 0;width:390px;} New version */
+#metaNavRow {  position: absolute;right: 25px;bottom: 5px;}
+/*#metaNavRow {float:right;padding:0 0 4px 0;clear:right;} New version */
+.social-media {position: absolute; right: 180px; bottom: 23px;}
+.social-media img { margin-left: 5px; border: none}
+#hometicker {  position: absolute;right: 20px;top:20px;}
+.stock {color:#000000;}
+.homeQuoteContainer { background-color:#dbe2f4;padding:5px;}
+.primaryNav { list-style:none;height:25px;background-color:#14479e;margin:0;padding:0;}
+.primaryNav li {float:left;padding:4px 19px 0 19px;margin:0;cursor:pointer;font-size:12px;font-weight:bold;color:#ffffff;height:21px;display:block;}
+.primaryNav li:hover {background-color:#7aabd3;}
+.primaryNav li.active {background-color:#1b3664;}
+.primaryNav li a {color:#ffffff;text-decoration:none;}
+.primaryOn  {background-color:#1b3664 !important;}
+.secondaryDropdown {z-index: 1;color: #ffffff;font-size: 10px;list-style-type: none;margin: 6px 0px 0 -21px;padding: 0;-moz-opacity: 0.9;opacity:.90;filter: alpha(opacity=90);width:145px;border-width:1px;border-color:#14479e;border-style:solid;display:none;position:absolute;}
+.secondaryDropdown li {height:auto;float:none;margin:0;padding: 4px 12px 4px 12px;background-color: #ffffff;font-size:10px;font-weight:normal;}
+.secondaryDropdown li:hover{background-color: #bfd0e0;}
+.secondaryDropdown li a{color: #000000;text-decoration: none;}
+#mainBodyContainer{border-width: 1px;border-color: #AEC1D6;border-style: solid;background-color: #ffffff;margin-left:28px;margin-right:28px;margin-top:21px;margin-bottom:18px;}
+#breadcrumbs{margin-bottom:8px;height:17px;padding-left:14px;padding-right:0px;padding-top:0px;background-color: #dbe2f1;color: #666666;}
+#breadcrumbs ul{height:17px;list-style-type: none;margin-right: 0px;margin-bottom: 0px;padding-right: 0px;padding-left: 0px;margin-left: 0px;margin-top: 0px;list-style-image: url(https://www.marathonpetroleum.com/images/spacer.gif);}
+#breadcrumbs ul li{float:left;padding-right: 0;padding-bottom:0;font-size:11px;}
+#breadcrumbs a{color: #666666;font-size:11px;}
+
+#leftNav{padding-left: 7px;padding-top: 21px;padding-right: 7px;padding-bottom: 34px;color: #666666;font-size: 10px;width: 185px;}
+#leftNav a{text-decoration: none;}
+#leftNav ul{list-style-type: none;margin-right: 0px;margin-bottom: 0px;padding-top: 1px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;margin-left: 0px;margin-top: 0px;}
+#leftNav ul li{border-style: solid;border-width: 1px;border-color:#99BBDD;margin-top: 4px;padding:0;}
+#leftNav ul li a{color:#372B27;}
+#leftNav ul li.active {border-style: solid;border-width: 1px;border-color:#14479e;padding-left: 5px;padding-top: 3px;padding-right:11px;padding-bottom: 3px;margin-top: 4px;background-color:#14479e;color: #ffffff;}
+#leftNav ul li.active a { color:#ffffff;}
+#leftNav ul li div.leftLink {margin: 3px 11px 3px 5px;}
+#leftNav ul li:hover{border-color:#14479e;background-color:#14479e;}
+#leftNav ul li:hover a {color:#ffffff;}
+
+#leftNav ul li.active ul{border-style: solid;border-width: 1px;border-color:#ffffff;background-color: #DBE2F1;margin: 4px -11px -3px -5px;}
+#leftNav ul li.active ul li {border-style:none;padding:0;}
+#leftNav ul li.active ul li:hover {background-color:#ffffff;}
+#leftNav ul li.active ul li.active {background-color:#ffffff;border-style:none;color:#372B27;}
+#leftNav ul li.active ul li.isParent {background-color:#transparent !important;background-image:url(https://www.marathonpetroleum.com/images/1/leftNav2_closed.gif);background-repeat:no-repeat;background-position:0px -1px;}
+
+#leftNav ul li.active ul li.isParent.active {background-color:transparent;background-image:url(https://www.marathonpetroleum.com/images/1/leftNav2_open.gif);}
+#leftNav ul li.active ul li div.leftLink {margin: 8px 11px 8px 15px;}
+#leftNav ul li.active ul li a{color: #372B27;}
+
+#leftNav ul li.active ul li.active ul{border-style:none;border-width:0;margin:0;padding:0;}
+#leftNav ul li.active ul li.active ul li.isParent {background-position:10px -1px;}
+#leftNav ul li.active ul li.active ul li div.leftLink{margin-left: 25px;}
+
+#leftNav ul li.active ul li.active ul li.active ul li.isParent {background-position:20px -1px;}
+#leftNav ul li.active ul li.active ul li.active ul li div.leftLink{margin-left: 35px;}
+
+#leftNav ul li.active ul li.active ul li.active ul li.active ul li.isParent {background-position:30px -1px;}
+#leftNav ul li.active ul li.active ul li.active ul li.active ul li div.leftLink{margin-left: 45px;}
+
+#leftNav ul li.active ul li.active ul li.active ul li.active ul li.active ul li.isParent {background-position:40px -1px;}
+#leftNav ul li.active ul li.active ul li.active ul li.active ul li.active ul li div.leftLink{margin-left: 55px;}
+
+#leftNav ul li.active ul li.active ul li.active ul li.active ul li.active ul li.active ul li.isParent {background-position:40px -1px;}
+#leftNav ul li.active ul li.active ul li.active ul li.active ul li.active ul li.active ul li div.leftLink{margin-left: 55px;}
+
+.hideThis { display:none; }
+
+.button {
+	color: #04145C;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	background: #EEEEEE;
+}
+
+.required-field {
+	color: #000000;
+	font: bold 12px verdana, Arial, Helvetica, sans-serif;
+}
+
+.error {
+	color: red;
+}
+
+#tcOutputDiv {
+	width:193px;
+}
+.term-cloud {font-family: arial; font-size: 10px;font-weight:normal; }
+.term-cloud-1 {font-size: 12px; color: #005daa;font-weight:light; }
+.term-cloud-2 {font-size: 14px; color: #939598;font-weight:light; }
+.term-cloud-3 {font-size: 16px; color: #005daa; }
+.term-cloud-4 {font-size: 18px; color: #939598; }
+.term-cloud-5 {font-size: 20px; color: #005daa; font-weight:bold;}
+.term-cloud-6 {font-size: 22px; color: #939598;font-weight:bold; }
+.term-cloud-7 {font-size: 24px; color: #005daa;font-weight:bold; }
+.term-cloud-8 {font-size: 26px; color: #939598;font-weight:heavy; }
+.term-cloud-9 {font-size: 28px; color: #005daa;font-weight:heavy; }
+.term-cloud-error {font-family: arial; font-size: 10px; color: red; }
+.term-cloud-link {text-decoration: none; }
+.term-cloud-link:hover {text-decoration: underline;}
+
+
+.homeInline {
+	width:691px;
+	margin:20px 0 0 20px;
+}
+
+.narrowCol {
+	float:left;
+	margin-right:21px;
+	margin-top:2px;
+	width:171px;
+}
+.wideCol {
+	float:right;
+	margin-top:2px;
+	width:305px;
+}
+
+.wideCol .linkList li {
+	border-color:#14479e;
+	border-width: 0 0 1px 0;
+	border-style:solid;
+	padding-top:4px;
+	padding-bottom: 6px;
+}
+
+.linkList {
+	margin:0 0 18px 30px;
+	padding:0;
+	list-style-type: none;
+}
+
+.linkList li {
+	background-image:url(https://www.marathonpetroleum.com/images/redArrowBullet.png);
+	background-repeat:no-repeat;
+	background-position:1px 5px;
+	padding:2px 0 2px 14px;
+	font-size:10px;
+}
+
+.linkList p {
+	font-size:10px;
+	margin:0;
+}
+
+.linkList a {
+	font-weight:bold;
+	font-size:10px;
+	text-decoration:none;
+	}
+
+
+
+.homeSidebar {
+	width:226px;
+	background-color:#005daa;
+	color:#ffffff;
+}
+
+.homeSidebar a {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:10px;
+}
+
+.homeSidebar ul {
+	padding-left:12px;
+	list-style-type:none;
+	margin:0;
+}
+
+.homeSidebar ul li {
+	padding-right:11px;
+	padding-left:11px;
+	background-image:url(https://www.marathonpetroleum.com/images/redArrowBullet.png);
+	background-repeat:no-repeat;
+	background-position:1px 4px;
+}
+
+/*
+#leftNav .leftNavDeepUL{border-style: solid;border-color: #99ADD6;border-left-width: 1px;border-top-width: 0px;border-right-width: 1px;border-bottom-width: 1px;}
+#leftNav ul li ul li ul {border-style:none;}
+#leftNav ul li ul li:hover{background-color:transparent;}
+
+*/
+.floatImageLeft {
+	margin: 0 14px 2px 4px;
+	float: left;
+}
+
+.floatImageRight{
+	margin: 0 4px 2px 14px;
+	float: right;
+}
+.rounded1 {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.rounded2 {
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+h1, h1 a
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding:3px 0 0 43px;
+	color: #ffffff;
+	text-decoration:none;
+	height:21px;
+	margin:13px 0 12px 0;
+	background-image:url(https://www.marathonpetroleum.com/images/h1bkgrnd.png);
+	background-repeat:no-repeat;
+	background-color:#14479e;
+	clear:right;
+	width:auto;
+}
+
+h1 a:hover
+{
+	text-decoration:underline;
+}
+
+h2
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0033;
+	margin-bottom:4px;
+}
+
+h4
+{
+	font-size:16px;
+	color:#a59c97;
+	font-weight:normal;
+}
+
+
+
+
+
+/*# {
+	font-family: verdana, arial, helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}*/
+
+#printLogo
+{
+	display:none;
+}
+
+.sitemap1
+{
+	margin:14px 0 0 0;
+}
+
+.sitemap2, .sitemap3
+{
+	margin:0 0 0 0;
+	padding:0;
+}
+
+.sitemap1 A
+{
+	font-size:14px;
+	color:#0055A9;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.sitemap1 A:hover, .sitemap2 A:hover, .sitemap3 A:hover
+{
+	text-decoration:underline;
+}
+
+.sitemap2 A
+{
+	font-size:11px;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.sitemap3
+{
+	font-size:10px;
+}
+
+.sitemap3 a
+{
+	text-decoration:none;
+	color: #000000;
+}
+
+body
+{
+	margin: 0px;
+}
+
+.newsListDate
+{
+	text-transform:uppercase;
+	text-align:right;
+	vertical-align: top;
+	color:#666666;
+	padding:0 7px 6px 0;
+}
+
+.newsSelector
+{
+	padding-top:4px;
+	font-size:10px;
+}
+
+.newsListTitle
+{
+	padding:0 0 6px 0;
+}
+
+.stock
+{
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 0 0 0;
+	margin:0;
+}
+
+
+#homeBodyContainer
+{
+	background-color: #ffffff;
+	margin-left:28px;
+	margin-top:20px;
+	margin-bottom:53px;
+}
+
+
+
+.bodyCell
+{
+	border-style: solid;
+	border-color: #CAC5C3;
+	border-left-width: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
+
+.sidebarCell
+{
+	border-style: solid;
+	border-color: #CAC5C3;
+	border-left-width: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	padding-right:10px;
+}
+
+#banner
+{
+	background-color: #000033;
+	margin-left:26px;
+	margin-right:25px;
+	background-image:url('https://www.marathonpetroleum.com/images/mpc/mpc_banner.jpg');
+	height:92px;
+	background-repeat:no-repeat;
+}
+
+
+
+
+#MPCMOCLogo
+{
+	padding-left: 7px;
+	padding-top: 5px;
+}
+
+#MPCsearchBox
+{
+	float: right;
+}
+
+#searchBox
+{
+	padding-right: 27px;
+	padding-top: 14px;
+	float: right;
+}
+
+#newsRelease, #newsRelease A
+{
+	font-size: 10px;
+	color: #999999;
+}
+
+
+p
+{
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	margin-bottom:16px;
+	margin-top:0px;
+}
+
+.sidebarCell p
+{
+	margin-top:16px;
+	margin-bottom:0;
+}
+
+hr
+{
+	top: 0px;
+	left: 0px;
+	background:#0000FF;
+	height:1px;
+	border:none;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+#headlines { padding-top:7px;width:390px;height:56px;background-image: url('https://www.marathonpetroleum.com/content/inline-images/marathon_com/home/headlines_bkgrnd.gif');float:left;display:inline;margin: 10px 25px 0 0;}
+
+#headlines p
+{
+	font-size:10px;
+	color: #61524E;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:14px;
+	padding-left:70px;
+	padding-top:10px;
+	padding-bottom:0px;
+	margin-top:0px;
+}
+
+#headlines p a
+{
+	color: #61524E;
+}
+
+#headlines p strong a
+{
+	color: #0C66B1;
+}
+
+#spotlight p
+{
+	font-size:10px;
+	color: #61524E;
+	margin-top:0px;
+	margin-bottom:0px;
+	line-height:14px;
+}
+
+#divisions
+{
+	padding-top:10px;
+	clear:left;
+	float:left;
+	width:516px;
+
+}
+#divisions p
+{
+	font-size:10px;
+	color: #0C66B1;
+	margin-bottom:0px;
+	line-height:14px;
+}
+
+#divisions p a
+{
+	color: #0C66B1;
+}
+
+#brands {
+	padding-top:10px;
+}
+
+#brands p
+{
+	font-size:10px;
+	color: #0C66B1;
+	margin-top:4px;
+	margin-bottom:0px;
+	line-height:14px;
+	padding-left:8px;
+	padding-right:2px;
+}
+
+#brands p a
+{
+	color: #0C66B1;
+}
+
+#spotlight p a
+{
+	font-weight: bold;
+	color: #0C66B1;
+}
+
+
+.fieldNote
+{
+	font-size:10px;
+	color:#ff0000;
+}
+
+.primNav
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration:none;
+	line-height:18px;
+}
+
+.primNav A
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration:none;
+	line-height:18px;
+}
+
+.textNav
+{
+	color: #666666;
+	font-family: Geneva, Tahoma, Sans-Serif;
+	font-size: 8px;
+	text-decoration: none;
+}
+
+#rightSidebar
+{
+	padding-left:12px;
+	font-size:10px;
+	float:right;
+	clear:right;
+	width:226px;
+}
+
+#rightSidebar P
+{
+	font-size:10px;
+}
+
+.sidebarImage
+{
+	border-style: solid;
+	border-width:1px;
+	border-color:#CAC5C3;
+	padding:2px;
+}
+
+.sidebarBox TH
+{
+	font-weight:bold;
+	color:#ffffff;
+	text-transform:uppercase;
+	background-image:url('https://www.marathonpetroleum.com/images/1/sidebar_header_bkgrnd.gif');
+	background-repeat:repeat-x;
+	background-position:top center;
+	background-color:#B2AFAF;
+	padding:4px;
+	font-size:10px;
+	margin:0px;
+	text-align:left;
+}
+
+.sidebarBox TD
+{
+	padding:4px;
+	font-size:10px;
+	margin:0;
+	background-image:url('https://www.marathonpetroleum.com/images/1/sidebar_box_bkgrnd.gif');
+	background-repeat:repeat-x;
+	background-position:bottom center;
+}
+
+.sidebarBox TD A
+{
+	text-decoration:none;
+}
+
+.sidebarBox TD P
+{
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+.sidebarBox
+{
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	border-color:#CAC5C3;
+	padding:0px;
+	margin:0px;
+	width:171px;
+	border-spacing:0;
+}
+
+.inlineBox
+{
+	background-image:url('https://www.marathonpetroleum.com/images/1/sidebar_box_bkgrnd.gif');
+	background-repeat:repeat-x;
+	background-position:bottom center;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	border-color:#CAC5C3;
+	padding:6px;
+	margin:0px;
+	width:171px;
+	border-spacing:0;
+}
+
+.inlineBox2
+{
+	background-image:url('https://www.marathonpetroleum.com/images/1/inline_box_bkgrnd.gif');
+	background-repeat:repeat-x;
+	background-position:bottom center;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+	border-color:#CAC5C3;
+	padding:6px;
+	margin:0px;
+	width:171px;
+	border-spacing:0;
+}
+
+
+
+.newsHR HR
+{
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.energyborder
+{
+	border-color:#d4cfce;
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+}
+
+.energygradient
+{
+	background-image:url(https://www.marathonpetroleum.com/images/energy/boxgradient.gif);
+	background-repeat:repeat-y;
+	background-color:#FFFFFF;
+	padding:5px;
+}
+
+.energyheader
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#61524e;
+}
+
+.podcast
+{
+	background-image:url(https://www.marathonpetroleum.com/images/energy/boxgradient.gif);
+	background-repeat:repeat-y;
+	background-color:#FFFFFF;
+	padding:10px;
+}
+
+.energycontent
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#61524e;
+	line-height:14px;
+}
+
+.imgpadleft
+{
+	padding:0px 0px 10px 10px;
+}
+
+.imgpadright
+{
+	padding:0px 10px 10px 0px;
+}
+
+.tablegreyborder
+{
+	border-left:#cac5c3 solid 1px;
+	border-top:#cac5c3 solid 1px;
+}
+
+.tablegreyborder td
+{
+	border-right:#cac5c3 solid 1px;
+	border-bottom:#cac5c3 solid 1px;
+	padding:3px;
+}
+
+.redheader
+{
+	color:#CC0033;
+}
+
+.sortable td
+{
+	padding: 4px;
+}
+
+.sortable thead
+{
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.sortable thead, .sortable tfoot
+{
+	background-color: #003399;
+}
+
+.sortable tr.rowodd
+{
+	background-color: #FFFFFF;
+}
+
+.sortable tr.roweven
+{
+	background-color: #F2F2F2;
+}
+
+.sortable .sortcol
+{
+	cursor: pointer;
+	padding-right: 20px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.sortable .sortasc
+{
+	background-color: #003399;
+	background-image: url(https://www.marathonpetroleum.com/images/sort_asc.jpg);
+}
+
+.sortable .sortdesc
+{
+	background-color: #003399;
+	background-image: url(https://www.marathonpetroleum.com/images/sort_desc.jpg);
+}
+
+.sortable .nosort
+{
+	cursor: default;
+	background-image: url(https://www.marathonpetroleum.com/images/sort_both.jpg);
+}
+
+.lovTable
+{
+	font-size:9px;
+	border-width:1px 0 1px 1px;
+	border-color:#a9afab;
+	border-style:solid;
+}
+
+.lovTable th
+{
+	font-size:10px;
+}
+
+.lovTable td
+{
+	font-size:10px;
+	border-width:1px 1px 0 0;
+	border-style:solid;
+	border-color:#a9afab;
+}
+
+.customSidebar
+{
+	border-style:solid;
+	border-width:1px;
+	padding:2px;
+	border-color:#cac5c3;
+	width:165px;
+}
+
+.customSidebar div
+{
+	background-color:#eeedec;
+	background-repeat:no-repeat;
+	margin:0;
+	width:149px;
+	padding: 52px 8px 8px 8px;
+}
+
+.customSidebar div p
+{
+	width:140px;
+}
+
+h2.dannsBar
+{
+	height:20px;
+	width:479px;
+	background-image:url(https://www.marathonpetroleum.com/images/marathon/dannsBar.jpg);
+	border-style:solid;
+	border-width:1px;
+	border-color:#cfcccb;
+	padding:6px 0 0 9px;
+	font-size:11px;
+	line-height:11px;
+	clear:left;
+	color:#0000ee;
+}
+
+h2.dannsBar a
+{
+	color:#0000ee;
+}
+
+ul.twoCol
+{
+	list-style:none;
+	margin:8px 0 8px 0;
+	padding:0 0 0 10px;
+	width:230px;
+	float:left;
+	font-size:11px;
+}
+
+#homeContainer {padding-top:9px;width=825;}
+#leftMargin {
+	float:left;
+	width:17px;
+}
+#rightMargin {
+	float:right;
+	width:17px;
+}
+#content {background-color:#ffffff;width:976px;float:left;}
+
+#twitter {
+	margin-right:6px;
+	border-style:none;position:relative;top:4px;
+}
+
+#rssIcon {
+	margin-right:6px;border-style:none;position:relative;top:4px;
+}
+#rssSubscribe { border-style:none; }
+
+#customerService
+{ border-style:none;
+}
+
+#contactUs
+{ border-style:none;
+}
+
+
+
+.clear {
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+.homeMarathonCanopy {background-image:url(https://www.marathonpetroleum.com/content/inline-images/marathon_com/home/marathon_canopy.jpg);width: 130px; background-repeat: no-repeat}
+.homeSpeedwayCanopy {background-image:url(https://www.marathonpetroleum.com/content/inline-images/marathon_com/home/speedway_canopy_rev.jpg); width: 130px; background-repeat: no-repeat}
+
+.workforceMetrics {background-image: url(https://www.marathonpetroleum.com/images/marathon/workforceMetrics.png);}
+.environmentalMetrics { background-image:url(https://www.marathonpetroleum.com/images/marathon/environmentalMetrics.png); }
+.ipieca {background-image: url(https://www.marathonpetroleum.com/images/marathon/ipieca.png); }
+.socioEconomicMetrics {background-image: url(https://www.marathonpetroleum.com/images/marathon/socioEconomicMetrics.png);}
+
+.inlineBoxWide
+{
+	background-image:url('https://www.marathonpetroleum.com/images/1/inline_box_bkgrnd2.gif');
+	background-repeat:repeat-x;
+	background-position:top center;
+	padding:20px;
+}
+
+.homecallout1 {
+	background-image: url('https://www.marathonpetroleum.com/content/includes/home/eandp_bkgrnd3.jpg'); width: 110px; background-repeat: no-repeat;
+}
+
+.homecallout2 {
+	background-image: url('https://www.marathonpetroleum.com/content/includes/home/oil_sands_bkgrnd3.jpg'); width: 110px; background-repeat: no-repeat;
+}
+
+.homecallout3 {
+	background-image: url('https://www.marathonpetroleum.com/content/includes/home/integrated_gas_bkgrnd3.jpg'); width: 110px; background-repeat: no-repeat;
+}
+
+.homecallout4 {
+	background-image: url('https://www.marathonpetroleum.com/content/includes/home/rmt_bkgrnd3.jpg'); width: 110px; background-repeat: no-repeat;
+}
+.odd {background-color:#F2F0F0;padding:13px 13px 3px 13px;}
+.even {background-color:#fff;padding:13px 13px 3px 13px;}
+
+#tinymce {background-color:#fff;}
+.nsfrm {display:none;}
+.specialField {display:none;}
+
+/* Government Affairs */
+.political-contributions {
+  background-color: #F0F0F0;
+  overflow: hidden;
+}
+
+.political-contributions .filter {
+  padding: 10px;
+  position: relative;
+}
+
+.political-contributions .back-button {
+  position: absolute;
+  left: 10px;
+}
+
+.political-contributions .result-count {
+  position: absolute;
+  right: 10px;
+}
+
+.political-contributions .filter form {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 18%;
+  padding-right: 7%;
+}
+
+.political-contributions .filter form label {
+  width: 33.3%;
+  display: inline-block;
+  text-align: center;
+}
+
+.political-contributions .filter form select {
+  margin-left: 10px;
+}
+
+.political-contributions .vector-map > svg, .political-contributions .vector-map > div,
+.disclosure-websites .vector-map > svg, .disclosure-websites .vector-map > div {
+  width: 100%;
+  height: 100%;
+}
+
+.political-contributions .panes {
+  width: 200%;
+  /* This container will be moved by script as a whole, creating sliding effect */
+  margin-left: 0;
+  -webkit-transition: margin-left 0.5s;
+  -moz-transition: margin-left 0.5s;
+  -ms-transition: margin-left 0.5s;
+  -o-transition: margin-left 0.5s;
+  transition: margin-left 0.5s;
+
+  position: relative; /* so we can absolute position the embed */
+  padding-bottom: 65%; /* For aspect ratio of 16:9 */
+  height: 0; /* Padding bottom already gives the needed height */
+  overflow: auto;
+}
+
+.political-contributions .panes > div {
+  /* The container is 200% width to accomodate 2 panes, so each one is 50% of 200% = full width */
+  width: 50%;
+  height: 100%;
+  /* Display inline-block to place them next to each other */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.political-contributions .panes .tabular {
+  /* Align the table with the top of the map */
+  vertical-align: top;
+  background-color: white;
+  left: 50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.political-contributions table {
+  padding: 10px 0;
+}
+.political-contributions table td {
+  padding: 0 10px;
+}
+
+.mceContentBody.political-contributions table,
+.political-contributions .panes table,
+.political-contributions .contribution table {
+  /* Equal column width */
+  table-layout: fixed;
+  /* No border on each row */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mceContentBody.political-contributions table td,
+.political-contributions .panes table td,
+.political-contributions .contribution table td {
+  border-top: 2px solid #808080;
+}
+
+.mceContentBody.political-contributions table th,
+.political-contributions .panes table th,
+.political-contributions .contribution table th {
+  position: relative;
+  background-color: #14479e;
+  color: white;
+  cursor: pointer;
+}
+
+.mceContentBody.political-contributions table td,
+.mceContentBody.political-contributions table th,
+.political-contributions .panes table th,
+.political-contributions .panes table td,
+.political-contributions .contribution table th,
+.political-contributions .contribution table td {
+  padding: 10px;
+  font-size: 12px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  text-align: center;
+}
+
+.mceContentBody.political-contributions table td.odd-column,
+.political-contributions .panes table td.odd-column,
+.political-contributions .contribution table td.odd-column {
+  background-color: #dbe2f1;
+}
+
+.political-contributions p {
+  margin: 0;
+}
+
+.political-contributions .up-arrow, .political-contributions .down-arrow {
+  position: absolute;
+  right: 5px;
+  font-size: 10px;
+}
+
+.political-contributions .up-arrow {
+  top: 6px;
+}
+.political-contributions .down-arrow {
+  bottom: 6px;
+}
+
+.political-contributions .up-arrow.active, .political-contributions .down-arrow.active {
+  color: red;
+}
+
+.disclosure-websites {
+  position: relative;
+}
+
+.disclosure-websites .panes {
+  position: relative; /* so we can absolute position the embed */
+  padding-bottom: 65%; /* For aspect ratio of 16:9 */
+  height: 0; /* Padding bottom already gives the needed height */
+  overflow: auto;
+}
+
+.disclosure-websites .panes .vector-map {
+  width: 100%;
+  height: 100%;
+  /* Display inline-block to place them next to each other */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.disclosure-websites .popup {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  background-color: #DBE2F1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.disclosure-websites .back-button {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+.accordion > h3 {
+  padding-left: 15px;
+  background-image: url("/images/1/leftNav2_closed.gif");
+  background-position: 0 -1px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.accordion > h3.current {
+  background-image: url("/images/1/leftNav2_open.gif");
+  background-position: 0 -3px;
+}

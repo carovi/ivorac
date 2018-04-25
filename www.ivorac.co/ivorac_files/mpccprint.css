@@ -1,0 +1,39 @@
+#headerContainer, #primaryNavContainer, #footerContainer, #leftMargin, #rightMargin, #leftNavCell,  #toolsTable, #breadcrumbs, #leftNavContainer {
+	display: none;
+}
+
+#mainBodyContainer {
+border-width:0;
+border-style:none;
+}
+
+body {
+font-size: 16px;
+}
+
+#printLogo {
+display:block;
+}
+
+.bodyCell {
+border-width:0;
+border-style:none;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+p, td {  
+	font-size: 14px;
+}
+
+. subs {
+	font-size: 12px;
+}
+
+rightSidebar

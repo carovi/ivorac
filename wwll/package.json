@@ -1,0 +1,11 @@
+{
+  "name": "wwll",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "scripts": {
+   "start": "node index"
+ }
+}
